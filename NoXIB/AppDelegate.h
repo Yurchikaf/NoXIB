@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainScreenViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) MainScreenViewController *viewController;
 @end

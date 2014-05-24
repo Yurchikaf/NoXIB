@@ -19,6 +19,7 @@
 		A0D236EC193140140008E360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D236D4193140130008E360 /* UIKit.framework */; };
 		A0D236F4193140140008E360 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0D236F2193140140008E360 /* InfoPlist.strings */; };
 		A0D236F6193140140008E360 /* NoXIBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D236F5193140140008E360 /* NoXIBTests.m */; };
+		A0D23701193140400008E360 /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D23700193140400008E360 /* MainScreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		A0D236F1193140140008E360 /* NoXIBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoXIBTests-Info.plist"; sourceTree = "<group>"; };
 		A0D236F3193140140008E360 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0D236F5193140140008E360 /* NoXIBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoXIBTests.m; sourceTree = "<group>"; };
+		A0D236FF193140400008E360 /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		A0D23700193140400008E360 /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				A0D236DF193140140008E360 /* AppDelegate.h */,
 				A0D236E0193140140008E360 /* AppDelegate.m */,
+				A0D236FF193140400008E360 /* MainScreenViewController.h */,
+				A0D23700193140400008E360 /* MainScreenViewController.m */,
 				A0D236E2193140140008E360 /* Images.xcassets */,
 				A0D236D7193140130008E360 /* Supporting Files */,
 			);
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D23701193140400008E360 /* MainScreenViewController.m in Sources */,
 				A0D236E1193140140008E360 /* AppDelegate.m in Sources */,
 				A0D236DD193140140008E360 /* main.m in Sources */,
 			);
